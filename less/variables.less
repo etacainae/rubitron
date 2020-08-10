@@ -1,0 +1,226 @@
+@ProximaNova: "ProximaNova", sans-serif;
+*:hover {
+  transition: .2s;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1360px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.overlay {
+  z-index: 3;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.35;
+  }
+  &.active {
+    display: block;
+  }
+}
+.main-title {
+  color: #04190a;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: -0.92px;
+  text-transform: uppercase;
+}
+h4 {
+  color: #04190a;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.27px;
+  line-height: 22px;
+}
+p {
+  color: #04190a;
+  font-family: @ProximaNova;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  line-height: 22px;
+}
+.top-text {
+  width: 100%;
+  text-align: center;
+  .comment {
+    width: 100%;
+    color: #ffffff;
+    font-family: @ProximaNova;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.21px;
+    &:before {
+      content: url(../img/icons/rubitron-white.svg);
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  .main-title {
+    color: #ffffff;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .breadcrumbs {
+    margin-top: 15px;
+    li {
+      transition: .2s;
+      display: inline-block;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 14px;
+      a {
+        transition: .2s;
+        font-family: @ProximaNova;
+      }
+      a:hover {
+        opacity: .6;
+      }
+    } 
+    li:first-child {
+      a {
+        color: rgba(255, 255, 255, 0.5);
+      }
+      &:after {
+        content: '/';
+        color: rgba(255, 255, 255, 0.5);
+        transform: translateY(2px);
+        font-size: 16px;
+        margin: 0 15px;
+        display: inline-block;
+      }
+    }
+  }
+  &.black {
+    .comment {
+      color: #04190a;
+      &:before {
+        content: url(../img/icons/rubitron-blue.svg);
+      }
+    }
+    .main-title {
+      color: #04190a;
+    }
+  }
+}
+.btn-green {
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+  transition: .2s;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #4c8e2d;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.21px;
+  background-image: url(../img/icons/ar-right.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 46% right 30px;
+  box-shadow: 0 20px 35px rgba(116, 186, 84, 0.5);
+  &:hover {
+    background-color: #448426;
+    box-shadow: none;
+  }
+}
+.btn-more {
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+  transition: .2s;
+  display: inline-block;
+  padding-left: 57px;
+  padding-right: 30px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f5f5f5;
+  color: #4c8e2d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.21px;
+  background-image: url(../img/icons/more.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 50% left 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  &:hover {
+    background-color: #EDEDED;
+    box-shadow: none;
+  }
+}
+.contact-us-btn {
+  transition: .2s;
+  cursor: pointer;
+  &:hover {
+    opacity: .8;
+  }
+}
+label {
+  margin-top: 25px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .form-input {
+    transition: .2s;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    color: #04190a;
+    font-family: @ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+    line-height: 35px;
+    height: 35px;
+  }
+  .form-placeholder {
+    transition: .2s;
+    position: absolute;
+    top: 12px;
+    color: #ababab;
+    font-family: @ProximaNova;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+}
+.form-input:focus + .form-placeholder {
+  transition: .2s;
+  top: -10px;
+}
+.filled {
+  .form-input {
+    transition: .2s;
+    border-color: #0e75cc;
+  }
+  .form-placeholder {
+    top: -10px;
+  }
+}

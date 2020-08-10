@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#43b8f1"/>
+      <stop offset="1" stop-color="#0c73cb"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.135" r="0.869" gradientTransform="matrix(0, 1, -1.19, 0, 0.539, -0.467)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.302"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="Union_2" x="7.211" y="5.917" width="25.565" height="27.072" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#00325c" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="-0.321" r="1.652" gradientTransform="translate(0.5 -0.5) rotate(90) scale(1 0.407)" xlink:href="#radial-gradient"/>
+    <filter id="Path_740" x="11.727" y="25.495" width="16.531" height="12.063" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#00325c" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="иконка_2" data-name="иконка 2" transform="translate(-767.938 -1188)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="20" cy="20" r="20" transform="translate(767.938 1188)" fill="url(#linear-gradient)"/>
+    <g id="lightbulb_1_" data-name="lightbulb (1)" transform="translate(779.648 1196.417)">
+      <g transform="matrix(1, 0, 0, 1, -11.71, -8.42)" filter="url(#Union_2)">
+        <path id="Union_2-2" data-name="Union 2" d="M9.034,18.072h-4.6a6.342,6.342,0,0,0-1.885-3.805A8.336,8.336,0,0,1,.124,6.815,8.243,8.243,0,0,1,6.506.183a8.288,8.288,0,0,1,7.452,14.132,5.689,5.689,0,0,0-1.877,3.757Z" transform="translate(11.71 8.42)" fill="url(#radial-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -11.71, -8.42)" filter="url(#Path_740)">
+        <path id="Path_740-2" data-name="Path 740" d="M181,451.8a2.262,2.262,0,0,0,2.259,2.259h3.012a2.262,2.262,0,0,0,2.259-2.259V451H181Zm0,0" transform="translate(-164.77 -423)" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

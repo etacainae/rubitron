@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.724" height="44.157" viewBox="0 0 32.724 44.157">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.25" r="1.07" gradientTransform="matrix(0.968, -0.252, 0.201, 0.772, -0.034, 0.183)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c8e2d" stop-opacity="0.302"/>
+      <stop offset="1" stop-color="#4c8e2d"/>
+    </radialGradient>
+    <filter id="Path_4080" x="6.373" y="20.979" width="19.977" height="23.178" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#005c12" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.525" cy="0.148" r="0.759" gradientTransform="matrix(-0.005, 1, -1.263, -0.006, 0.825, -0.278)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="element2" transform="translate(-46.564)">
+    <g id="Group_60" data-name="Group 60" transform="translate(46.564)">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_4080)">
+        <path id="Path_4080-2" data-name="Path 4080" d="M195.647,305.954a3.016,3.016,0,0,1-2.131.6,3.839,3.839,0,0,1-2.94-2.47,6.2,6.2,0,0,1-.385-3.557c-1.947,1.042-4.444,3.408-4.444,8.689a5.488,5.488,0,1,0,9.9-3.264Z" transform="translate(-174.87 -277.05)" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Group_59" data-name="Group 59">
+        <path id="Path_4081" data-name="Path 4081" d="M79.262,22.715l-.177-3.152-1.924,2.5a5.291,5.291,0,0,1-.9.873,12.47,12.47,0,0,0,.409-1.853,13.146,13.146,0,0,0-2.778-9.9L72.677,9.56l-.8,1.87c-.921,2.157-2.412,3.239-3.8,2.756-1.066-.371-1.933-1.592-2.378-3.349-.415-1.639-.656-4.523.552-8.956L66.768,0l-1.9.428c-6.416,1.445-10.739,6-12.5,13.176a31.9,31.9,0,0,0-.86,7.805A12.783,12.783,0,0,1,49.21,19.08l-1.444-2.121-.658,2.484A16.371,16.371,0,0,0,62.724,40a7.844,7.844,0,0,1-7.632-7.832c0-5.482,2.355-8.4,4.331-9.887a10.174,10.174,0,0,1,4.421-1.92l2.713-.34-1.624,2.2a3.917,3.917,0,0,0-.516,3.876c.3.7.747,1.044,1.051,1.078.383.044.767-.4.963-.661l.766-1.041.962.864A7.834,7.834,0,0,1,63.128,40a16.38,16.38,0,0,0,16.16-16.36C79.288,23.341,79.28,23.029,79.262,22.715Z" transform="translate(-46.564)" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

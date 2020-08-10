@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.138" height="13.857" viewBox="0 0 18.138 13.857">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.367" cy="0.094" r="1.721" gradientTransform="matrix(0.999, -0.043, 0.022, 0.509, -0.002, 0.062)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c8e2d" stop-opacity="0.302"/>
+      <stop offset="1" stop-color="#4c8e2d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0" cy="0.21" r="1.322" gradientTransform="matrix(1, -0.001, 0, 0.489, 0, 0.256)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="0.551" cy="0.637" r="0.533" gradientTransform="matrix(0.994, -0.106, 0.077, 0.727, -0.036, 0.19)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.577" r="0.701" gradientTransform="matrix(0.999, -0.054, 0.038, 0.707, -0.022, 0.202)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="open-book" transform="translate(0 -35.048)">
+    <g id="Group_31" data-name="Group 31" transform="translate(0 35.048)">
+      <g id="Group_30" data-name="Group 30" transform="translate(0 0)">
+        <path id="Path_764" data-name="Path 764" d="M35.48,35.049h0a.64.64,0,0,0-.455.188.646.646,0,0,0-.191.461v9.733a.651.651,0,0,0,.65.649,8.029,8.029,0,0,1,5.788,2.146V38.04a.622.622,0,0,0-.089-.329C39.749,35.4,36.994,35.053,35.48,35.049Z" transform="translate(-32.706 -35.049)" fill="url(#radial-gradient)"/>
+        <path id="Path_765" data-name="Path 765" d="M163.189,45.43V35.7a.646.646,0,0,0-.191-.461.64.64,0,0,0-.455-.188h0c-1.514,0-4.268.354-5.7,2.662a.622.622,0,0,0-.089.329V48.224a8.029,8.029,0,0,1,5.788-2.146A.651.651,0,0,0,163.189,45.43Z" transform="translate(-147.178 -35.048)" fill="url(#radial-gradient-2)"/>
+        <path id="Path_766" data-name="Path 766" d="M178.5,71.8h-.471v8.137a1.661,1.661,0,0,1-1.655,1.657,7.2,7.2,0,0,0-4.891,1.67,15.625,15.625,0,0,1,6.871.133.649.649,0,0,0,.794-.632V72.45A.65.65,0,0,0,178.5,71.8Z" transform="translate(-161.009 -69.556)" fill="url(#radial-gradient-3)"/>
+        <path id="Path_767" data-name="Path 767" d="M1.12,79.938V71.8H.649A.65.65,0,0,0,0,72.45V82.765a.649.649,0,0,0,.794.632,15.624,15.624,0,0,1,6.871-.133,7.2,7.2,0,0,0-4.891-1.67A1.66,1.66,0,0,1,1.12,79.938Z" transform="translate(0 -69.556)" fill="url(#radial-gradient-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

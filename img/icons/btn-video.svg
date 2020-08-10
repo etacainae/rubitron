@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#43b8f1"/>
+      <stop offset="1" stop-color="#0c73cb"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.13" cy="0.18" r="0.931" gradientTransform="matrix(-0.106, -0.994, 1.147, -0.123, -0.063, 0.331)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.302"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="play_3_" x="20.5" y="20.5" width="30.6" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#00325c" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="иконка_видео" data-name="иконка видео" transform="translate(-752.938 -1173)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="35" cy="35" r="35" transform="translate(752.938 1173)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 752.94, 1173)" filter="url(#play_3_)">
+      <path id="play_3_2" data-name="play (3)" d="M36.988,10.954,17.788.154A1.2,1.2,0,0,0,16,1.2V22.8a1.2,1.2,0,0,0,1.788,1.046l19.2-10.8a1.2,1.2,0,0,0,0-2.093Z" transform="translate(9 23)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

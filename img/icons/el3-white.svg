@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.157" height="49" viewBox="0 0 44.157 49">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.17" r="1.158" gradientTransform="translate(0 0.032) scale(1 0.811)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.302"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="Path_4070" x="10.547" y="0" width="23.065" height="25.406" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#005c12" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.513" cy="0.277" r="1.282" gradientTransform="translate(0 0.083) scale(1 0.7)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.184"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="Path_4071" x="0" y="7.031" width="44.157" height="41.969" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#005c12" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="packing" transform="translate(-26.496 2.5)">
+    <g transform="matrix(1, 0, 0, 1, 26.5, -2.5)" filter="url(#Path_4070)">
+      <path id="Path_4070-2" data-name="Path 4070" d="M172.114,15.985a1.172,1.172,0,0,0,1.8,0l5.859-7.031a1.173,1.173,0,0,0-.9-1.922h-2.344V1.172A1.172,1.172,0,0,0,175.358,0H170.67A1.172,1.172,0,0,0,169.5,1.172V7.031h-2.344a1.173,1.173,0,0,0-.9,1.922Z" transform="translate(-150.93 2.5)" fill="url(#radial-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 26.5, -2.5)" filter="url(#Path_4071)">
+      <path id="Path_4071-2" data-name="Path 4071" d="M65.416,90.08a1.172,1.172,0,0,0-1.523.653L59.5,101.715H37.65L33.257,90.733a1.172,1.172,0,1,0-2.176.87l4.6,11.509v18.681a1.172,1.172,0,0,0,1.172,1.172H60.294a1.172,1.172,0,0,0,1.172-1.172V103.112l4.6-11.509A1.172,1.172,0,0,0,65.416,90.08Zm-14.5,18.744H46.231a1.172,1.172,0,1,1,0-2.344h4.688a1.172,1.172,0,0,1,0,2.344Z" transform="translate(-26.5 -80.46)" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+</svg>

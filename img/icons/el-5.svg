@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.522" height="49" viewBox="0 0 53.522 49">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.136" cy="0.849" r="0.949" gradientTransform="matrix(0.731, -0.683, 0.42, 0.45, -0.32, 0.561)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.302"/>
+    </radialGradient>
+    <filter id="Path_4031" x="0" y="4.758" width="38.452" height="38.233" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#505050" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.778" r="0.588" gradientTransform="matrix(0.27, -0.963, 1.064, 0.298, -0.462, 1.027)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0" stop-color="#fff" stop-opacity="0.796"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.302"/>
+    </radialGradient>
+    <filter id="Union_4" x="12.82" y="6.847" width="40.702" height="42.153" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#505050" flood-opacity="0.675"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-3" cx="0.139" cy="0.82" r="0.715" gradientTransform="matrix(0.672, -0.741, 1.098, 0.996, -0.755, 0.148)" xlink:href="#radial-gradient"/>
+    <filter id="Path_4038" x="23.03" y="0" width="19.963" height="19.983" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-color="#505050" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="wallpaper" transform="translate(4.5 -23.501)">
+    <g transform="matrix(1, 0, 0, 1, -4.5, 23.5)" filter="url(#Path_4031)">
+      <path id="Path_4031-2" data-name="Path 4031" d="M28.761,88.965a10.3,10.3,0,0,1-5.142-2.831,10.176,10.176,0,0,1-2.852-5.1q-.069-.344-.108-.685L1.088,99.771c-1.817,1.8-1.309,5.133,1.156,7.58a7.117,7.117,0,0,0,4.844,2.227A3.874,3.874,0,0,0,9.88,108.5L29.453,89.07C29.222,89.044,28.991,89.01,28.761,88.965Z" transform="translate(4.5 -73.09)" fill="url(#radial-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -4.5, 23.5)" filter="url(#Union_4)">
+      <path id="Union_4-2" data-name="Union 4" d="M6.229,32.768l-3.514-3.52h0L0,26.528H0l.091-.091L22.577,3.762h0A6.613,6.613,0,0,0,23.7,0l3.755,3.762h-.01l3.694,3.677v.015l.181.181a1.317,1.317,0,0,1,.017,1.841h0l-2.625,2.631h.005l-3.078,3.083h0L23,17.82h0L19.929,20.9h0L17.3,23.534h0l-3.078,3.083h0L11.6,29.248h0L9.914,30.937,8.089,32.765h0l0,0a1.311,1.311,0,0,1-1.857,0Z" transform="translate(17.32 9.35)" fill="url(#radial-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -4.5, 23.5)" filter="url(#Path_4038)">
+      <path id="Path_4038-2" data-name="Path 4038" d="M267.665,34.74a7.622,7.622,0,0,0,3.8,2.138,5.276,5.276,0,0,0,1.036.106,3.883,3.883,0,0,0,2.8-1.085c1.817-1.82,1.309-5.18-1.156-7.649s-5.819-2.978-7.636-1.158a4.168,4.168,0,0,0-.978,3.843A7.643,7.643,0,0,0,267.665,34.74Z" transform="translate(-237.9 -23.5)" fill="url(#radial-gradient-3)"/>
+    </g>
+  </g>
+</svg>
